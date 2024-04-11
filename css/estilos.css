@@ -1,0 +1,62 @@
+html{
+    --color-blanco: white;
+    --color-gris:gray;
+    --color-navy: #1F2938;
+    --color-azul: #1C4ED9;
+}
+
+body{
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+    background-color: var(--color-navy);
+}
+
+.letra-blanca{
+    color: var(--color-blanco);
+}
+
+.letra-gris{
+    color: var(--color-gris);
+}
+
+.negritas{
+    font-weight: bold;
+}
+
+header section article{
+    display: inline-block;
+    
+}
+
+header section article nav{
+    display: inline-block;
+}
+
+header section article nav ul{
+    list-style: none;
+}
+
+header section article nav ul li{
+    display: inline-block;
+}
+
+header section article{
+    width: 50%;
+}
+
+header section article{
+    margin-top:;
+}
+
+header section article:nth-child(1){
+    float: left;
+}
+
+
+
+
+
+
+
+
