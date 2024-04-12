@@ -1,62 +1,98 @@
-html{
-    --color-blanco: white;
-    --color-gris:gray;
-    --color-navy: #1F2938;
-    --color-azul: #1C4ED9;
-}
 
 body{
-    font-size: 16px;
+    font-size: 16px;  /* 1em */
     margin: 0px auto;
-    max-width: 1024px;
-    background-color: var(--color-navy);
+    max-width: 1078px;
+    min-width: 1078px;
+    /* border: 1px solid red; */
+}
+#desk  {
+    border-radius: 10px;
+    border: 5px solid white;
+    width: 60%;
+    /* vertical-align: middle; */
+    margin-bottom: -90px;
 }
 
-.letra-blanca{
-    color: var(--color-blanco);
+.card {
+    border-radius: 10px;
+    padding: 10px 5px; /* Removed unnecessary right padding and adjusted */
+    width: 30%;
+    margin: 50px 0; /* Adjusted margin shorthand */
 }
 
-.letra-gris{
-    color: var(--color-gris);
+#get {
+    background: #1d4ed9;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: bold;
+    size: 40%;
+}
+#live {
+    background: #384152;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+header{
+    /* border: 1px solid red; */
+    background: #1f2938;
+}
+#centrar {
+    margin-top: 15px;
+    margin-left: 55px;
+}
+header nav{
+    /* border: 1px solid red; */
+    float: right;
+    margin-top: -15px;
+    margin-right: 35px;
+}
+header nav ul li{
+    display: inline-block;
+    margin-left: 8px;
+}
+header nav ul li img{
+    width: 20px;
+}
+header img{
+    width: 20px;
+    vertical-align: middle;
+}
+#section01 {
+    background: #1f2938;
+    text-align: center;
+}
+#section01 article{
+    padding-top: 130px;
+}
+#section02 {
+    margin-top: 170px;
+    text-align: center;
+}
+#section02 article{
+    margin-top: 35px;
+    display: inline-block;
+    width: 32%;
+}
+#signin {
+    vertical-align: middle;
+}
+.letrablanca {
+    color: white;
+}
+.letrablancagrande {
+    color: white;
+    font-size: 1.7em;
 }
 
+.letra-gris {
+    color: #9CA3AF;
+}
+.letranegragrande {
+    font-size: 1.8em;
+    font-weight: bold;
+}
 .negritas{
     font-weight: bold;
 }
-
-header section article{
-    display: inline-block;
-    
-}
-
-header section article nav{
-    display: inline-block;
-}
-
-header section article nav ul{
-    list-style: none;
-}
-
-header section article nav ul li{
-    display: inline-block;
-}
-
-header section article{
-    width: 50%;
-}
-
-header section article{
-    margin-top:;
-}
-
-header section article:nth-child(1){
-    float: left;
-}
-
-
-
-
-
-
-
-
