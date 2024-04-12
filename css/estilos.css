@@ -13,14 +13,6 @@ body{
     /* vertical-align: middle; */
     margin-bottom: -90px;
 }
-
-.card {
-    border-radius: 10px;
-    padding: 10px 5px; /* Removed unnecessary right padding and adjusted */
-    width: 30%;
-    margin: 50px 0; /* Adjusted margin shorthand */
-}
-
 #get {
     background: #1d4ed9;
     border-radius: 25px;
@@ -73,8 +65,15 @@ header img{
 #section02 article{
     margin-top: 35px;
     display: inline-block;
+    padding: 0px;
     width: 32%;
 }
+
+#section02 article span{
+    display: block;
+    padding: 0px 20px 10px 20px;
+}
+
 #signin {
     vertical-align: middle;
 }
